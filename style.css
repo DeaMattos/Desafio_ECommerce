@@ -28,8 +28,10 @@ body{
 .container img {
     width: 120px;
     height: 39px;
-    margin-right: 30px;
+
     padding: 5px;
+    margin-right: 30px;
+    
 }
 
 .menu ul{
@@ -48,7 +50,10 @@ body{
     letter-spacing: 1px;
     color: black;
     text-decoration:none;    
+
     padding: 15px;
+
+    border-bottom: 1.5px solid rgba(4, 128, 217, 0);
 }
 
 .menu ul li a:hover {
@@ -57,12 +62,16 @@ body{
     letter-spacing: 1px;
     color: rgb(4, 128, 217);
     text-decoration:none;
-    padding: 15px;
+
+    padding: 5px 15px;
+
+    border-bottom: 1.5px solid rgb(4, 128, 217);
 }
 
 .acessoUser{
     display: flex;
     align-items: center;
+
     padding: 15px;
 }
 
@@ -70,6 +79,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: black;
+
     padding: 15px;
 }
 
@@ -79,6 +89,7 @@ body{
 
     width: 100px;
     height: 10px;
+
     padding: 3px;
 
     border: 1px solid black;
@@ -92,8 +103,9 @@ body{
     
     width: 50px;
     height: 15px;
-    margin-left: 15px;
+
     padding: 3px;
+    margin-left: 15px;    
 
     border: 1px solid black;
     border-radius: 14px;
@@ -107,8 +119,9 @@ body{
     
     width: 50px;
     height: 15px;
-    margin-left: 15px;
+
     padding: 3px;
+    margin-left: 15px;    
 
     border: 1px solid rgb(4, 128, 217);
     border-radius: 14px;
@@ -125,7 +138,6 @@ body{
 
 /* CORPO DO SITE */
 
-
 .containerMain {
     display: flex;
     align-items:center;
@@ -135,6 +147,7 @@ body{
 
     max-width: 1200px;
     width: 100%;
+
     margin: 0 auto;
 }
 
@@ -144,13 +157,14 @@ body{
     justify-content:space-evenly; 
     flex-direction: row;
     flex-wrap: wrap;
+
     max-width: 1200px;
     width: 95%;
+
     margin: 0 auto;
 }
 
 /* PRODUTOS DA PRIMEIRA LINHA*/
-
 
 .linha1 {
     display: flex;
@@ -159,7 +173,7 @@ body{
     
     max-width: 1200px;
     width: 100%;
-    margin: 10px auto;
+    margin: 25px auto;
 }
 
 .linha1 a {
@@ -176,8 +190,8 @@ body{
 
     width: 260px;
     height: 300px;
-    margin-top: 15px;
-    
+
+    margin-top: 15px;    
 
     border: 2px solid rgba(231, 230, 230, 0);
     border-radius: 10px;
@@ -192,26 +206,30 @@ body{
     height: 200px;
 }
 
-.produto1 h3 {
+.produto1 span strong h3 {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    
     
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: white;
+    text-align: center;
+    color: rgb(255, 255, 255);
 
     padding: 3px;
+
     background-color: rgb(176, 64, 64);
 }
 
 .produto1 h4 {
     display: flex;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1.5;
-    
+
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;    
+
     padding: 10px;
 }
 
@@ -224,6 +242,7 @@ body{
 
     width: 260px;
     height: 300px;
+
     margin-top: 15px;
 
     border: 2px solid rgba(231, 230, 230, 0);
@@ -240,25 +259,27 @@ body{
 }
 
 .produto2 h3 {
-    display: flex;
-    text-align: center;
+    display: flex;    
     
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
     color: white;
 
     padding: 3px;
+
     background-color: rgb(176, 64, 64);
 }
 
 .produto2 h4 {
-    display: flex;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1.5;
+    display: flex;    
     
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
+
     padding: 10px;
 }
 
@@ -271,6 +292,7 @@ body{
 
     width: 260px;
     height: 300px;
+
     margin-top: 15px;
 
     border: 2px solid rgba(231, 230, 230, 0);
@@ -287,25 +309,27 @@ body{
 }
 
 .produto3 h3 {
-    display: flex;
-    text-align: center;
+    display: flex;   
     
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
     color: white;
 
     padding: 3px;
+
     background-color: rgb(176, 64, 64);
 }
 
 .produto3 h4 {
-    display: flex;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1.5;
+    display: flex;       
     
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    text-align: center; 
+    font-weight: 300;
+    line-height: 1.5;
+
     padding: 10px;
 }
 
@@ -335,10 +359,10 @@ body{
 
 .produto4 h3 {
     display: flex;
-    text-align: center;
-    
+        
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
     color: white;
 
     padding: 3px;
@@ -347,12 +371,13 @@ body{
 
 .produto4 h4 {
     display: flex;
+       
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     line-height: 1.5;
     
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
     padding: 10px;
 }
 
@@ -365,7 +390,7 @@ body{
     
     max-width: 1200px;
     width: 100%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .linha2 a {
@@ -384,6 +409,7 @@ body{
     width: 260px;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 50px;
 
     border: 2px solid rgba(231, 230, 230, 0);
     border-radius: 10px;
@@ -400,11 +426,11 @@ body{
 }
 
 .produto5 h3 {
-    display: flex;
-    text-align: center;
+    display: flex;    
     
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
     color: white;
 
     padding: 3px;
@@ -413,12 +439,13 @@ body{
 
 .produto5 h4 {
     display: flex;
+        
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     line-height: 1.5;
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+
     padding: 10px;
 }
 
@@ -432,6 +459,7 @@ body{
     width: 260px;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 50px;
 
     border: 2px solid rgba(231, 230, 230, 0);
     border-radius: 10px;
@@ -448,10 +476,10 @@ body{
 
 .produto6 h3 {
     display: flex;
-    text-align: center;
-    
+        
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
     color: white;
 
     padding: 3px;
@@ -460,12 +488,13 @@ body{
 
 .produto6 h4 {
     display: flex;
+        
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     line-height: 1.5;
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+
     padding: 10px;
 }
 
@@ -479,6 +508,7 @@ body{
     width: 260px;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 50px;
 
     border: 2px solid rgba(231, 230, 230, 0);
     border-radius: 10px;
@@ -495,10 +525,11 @@ body{
 
 .produto7 h3 {
     display: flex;
-    text-align: center;
-    
+        
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
+
     color: white;
 
     padding: 3px;
@@ -507,12 +538,13 @@ body{
 
 .produto7 h4 {
     display: flex;
+        
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     line-height: 1.5;
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+
     padding: 10px;
 }
 
@@ -526,6 +558,7 @@ body{
     width: 260px;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 50px;
 
     border: 2px solid rgba(231, 230, 230, 0);
     border-radius: 10px;
@@ -542,10 +575,11 @@ body{
 
 .produto8 h3 {
     display: flex;
-    text-align: center;
-    
+        
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: center;
+
     color: white;
 
     padding: 3px;
@@ -554,13 +588,62 @@ body{
 
 .produto8 h4 {
     display: flex;
+        
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     line-height: 1.5;
+
+    padding: 10px;
+}
+
+.adicionar a {
+    display: flex;
+    justify-content: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+
+    padding: 8px;
+    margin-top: 25px;
+    transition: .07s;
+}
+
+.adicionar a:hover {
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(188, 111, 111);
+
+    padding: 8px;
+    margin-top: 25px;
+    transition: .07s;
+}
+
+.adicionar a:active {
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(176, 64, 64);
+
+    padding: 8px;
+    margin-top: 25px;
+    transition: .07s;
 }
 
 .banner2 img {
@@ -591,6 +674,24 @@ body{
     margin: 0 auto;
 }
 
+.chamada p {
+    display: flex;display: flex;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    max-width: 1200px;
+    width: 95%;
+
+    padding-bottom: 10px;
+    margin: 50px auto;
+
+    border-bottom: 1.5px solid rgba(198, 198, 198, 0.709);
+
+}
+
 .marcas {
     display: flex;
     align-items:center;
@@ -606,24 +707,86 @@ body{
 .marcas img {    
     width: 150px;
     height: 150px;
-    margin-top: 100px;
-}
+    }
 
-footer p {
+footer {
     display: flex;
-    text-align:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    height: 150px;
+    padding-top: 50px;
+    margin: 50px auto;
+    background-color: #303d3d;
+    flex-direction: column;
+}    
+
+footer p {    
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
     font-weight: 300;
     line-height: 1.5;
-    
+    text-align: center;
+    color: rgb(201, 199, 199);    
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.newsletter h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 25px;  
+}
+
+.newsletter label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align:center;
+    color: rgb(255, 255, 255);  
+
+}
+
+.newsletter input {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    color: rgb(255, 255, 255);
-    
-    
-    background-color: #303d3d;
-    padding-top: 50px;
-    max-width: 1200px;
-    height: 30px;
-    margin: 50px auto;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align:left;
+    color: rgb(0, 0, 0);  
+
+    width: 350px;
+    height: 10px;
+
+    margin: 10px;
+    padding: 5px;
+
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+
+    background-color: white;
+}
+
+.direitos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+   
+    margin: 40px auto;
 }
