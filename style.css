@@ -197,7 +197,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto1 h4 {
@@ -240,7 +244,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto2 h4 {
@@ -283,7 +291,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto3 h4 {
@@ -326,7 +338,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto4 h4 {
@@ -367,7 +383,7 @@ body{
 
     width: 260px;
     height: 300px;
-    
+    margin-top: 15px;
 
     border: 2px solid rgba(231, 230, 230, 0);
     border-radius: 10px;
@@ -380,6 +396,7 @@ body{
 .produto5 img {
     width: 200px;
     height: 200px;
+    
 }
 
 .produto5 h3 {
@@ -387,7 +404,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto5 h4 {
@@ -430,7 +451,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto6 h4 {
@@ -473,7 +498,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto7 h4 {
@@ -516,7 +545,11 @@ body{
     text-align: center;
     
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
+    color: white;
+
+    padding: 3px;
+    background-color: rgb(176, 64, 64);
 }
 
 .produto8 h4 {
@@ -528,6 +561,72 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 10px;
+}
+
+.banner2 img {
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 550px;
+    height: 132px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner3 img {
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 550px;
+    height: 132px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.marcas {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    
+    max-width: 1200px;
+    width: 100%;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.marcas img {    
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+}
+
+footer p {
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    font-weight: 300;
+    line-height: 1.5;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    
+    
+    background-color: #303d3d;
+    padding-top: 50px;
+    max-width: 1200px;
+    height: 30px;
+    margin: 50px auto;
+
 }
 
 
